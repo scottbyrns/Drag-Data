@@ -7,10 +7,10 @@ A Live Widget that copies a the value of the data-data attribute on a DOM elemen
 ```html
 
 
-						<div draggable="true"
-						     data-widget="drag-data"
-						     data-data="' + encodeURIComponent(JSON.stringify(data)) + '">
+	<div draggable="true"
+	     data-widget="drag-data"
+	     data-data="' + encodeURIComponent(JSON.stringify(data)) + '">
 
-            </div>
+	</div>
 
 ```
